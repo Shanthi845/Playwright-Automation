@@ -1,0 +1,16 @@
+{
+    "postData":{
+        "name": "morpheus",
+        "job": "leader"
+   },
+    "putData":{
+    
+        "name": "morpheus updated",
+        "job": "zion resident"
+  
+},
+"patchData":{
+    "job": "Lion resident"
+}
+
+}
