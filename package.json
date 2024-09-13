@@ -1,0 +1,24 @@
+{
+  "name": "playwright-orangehrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "loginTest":" npx playwright test login.spec.js --headed  & npm run allure-generate & npm run allure-open",
+    "allure-generate":"npx allure generate allure-results --clean",
+    "allure-open":" npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.0-beta.12",
+    "playwright": "^1.47.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
