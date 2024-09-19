@@ -8,7 +8,7 @@
 
 }
 
-async gotologinpage(){
+async goToLoginPage(){
     await this.page.goto(process.env.OrangeHRM_URL)
 }
 
